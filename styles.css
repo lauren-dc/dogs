@@ -21,16 +21,26 @@ header {
 
 .option {
     font-size: 1rem;
-    padding: 0.4em 1em;
+    padding: 0.4em 0.8em;
     margin: 0.5em 0.5em;
     background-color: #BFFCF9;
     border: transparent;
-    border-radius: 99px;
 }
 
 .option:hover {
     background-color: #8BC6C3;
 }
+
+select, button {
+    font-family: 'Georama', sans-serif;
+}
+
+.btn-add {
+    border-radius: 99px;
+}
+
+
+
 
 @keyframes glow {
     10% {box-shadow: 0 0 10px 2px #FFF;}
@@ -94,6 +104,17 @@ a:hover, a:focus {
     h1 {
         margin: 0.2em;
     }
+
+    .option-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .option, footer {
+        font-size: 0.8rem;
+    }
+}
 
     .option-container {
         display: flex;
